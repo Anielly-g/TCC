@@ -14,8 +14,8 @@ export default function FilaCard() {
   return (
     <div className="flex flex-col items-center justify-center h-screen bg-gray-100 p-6">
       <div className="bg-white shadow-xl rounded-2xl p-8 text-center w-full max-w-sm">
-        <h1 className="text-2xl font-bold mb-4">📊 Monitor de Fila</h1>
-        <p className="text-lg">Pessoas na fila: <b>{data.pessoas}</b></p>
+        <h1 className="text-2xl font-bold mb-4">Monitor do RU</h1>
+        <p className="text-lg">Lugares disponíveis: <b>{data.pessoas}</b></p>
         <p className="text-lg">Tempo médio: <b>{tempoMin} min</b></p>
         <p className="text-sm text-gray-500 mt-4">
           Última atualização:<br />
